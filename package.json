@@ -1,19 +1,18 @@
 {
-  "name": "nftproj",
+  "name": "arbiscanscrapper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rishi30mehta/nftproj.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rishi30mehta/nftproj/issues"
-  },
-  "homepage": "https://github.com/rishi30mehta/nftproj#readme"
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "pretty": "^2.0.0",
+    "tabletojson": "^2.0.7"
+  }
 }
